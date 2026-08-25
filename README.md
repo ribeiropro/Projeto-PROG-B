@@ -11,13 +11,13 @@ O ORBE é uma aplicação de desenvolvimento pessoal e organização, criada par
 
 A agenda permite que o usuário organize seus compromissos e atividades do dia a dia.
 
-• Registrar compromissos e eventos;
-• Adicionar aulas e horários de estudo;
-• Criar tarefas;
-• Organizar atividades por data e horário;
-• Criar atividades recorrentes;
-• Configurar lembretes;
-• Adicionar alarmes para atividades importantes;
+• Registrar compromissos e eventos
+• Adicionar aulas e horários de estudo
+• Criar tarefas
+• Organizar atividades por data e horário
+• Criar atividades recorrentes
+• Configurar lembretes
+• Adicionar alarmes para atividades importantes
 • Visualizar a rotina diária, semanal e mensal.
 
 
@@ -25,12 +25,12 @@ A agenda permite que o usuário organize seus compromissos e atividades do dia a
 
 O módulo de treinos permite que o usuário registre e acompanhe suas atividades físicas.
 
-• Criar fichas de treino;
-• Adicionar exercícios e atividades físicas;
-• Definir séries e repetições;
-• Registrar cargas utilizadas;
-• Definir tempo de descanso;
-• Consultar treinos anteriores;
+• Criar fichas de treino
+• Adicionar exercícios e atividades físicas
+• Definir séries e repetições
+• Registrar cargas utilizadas
+• Definir tempo de descanso
+• Consultar treinos anteriores
 • Acompanhar a evolução do desempenho.
 
 
@@ -38,12 +38,12 @@ O módulo de treinos permite que o usuário registre e acompanhe suas atividades
 
 O bloco de notas servirá para registrar informações importantes do cotidiano, estudos e atividades.
 
-• Anotações;
-• Listas;
-• Listas de tarefas;
-• Materiais de estudo;
-• Resumos;
-• Ideias;
+• Anotações
+• Listas
+• Listas de tarefas
+• Materiais de estudo
+• Resumos
+• Ideias
 • Observações relacionadas aos treinos ou à rotina.
 
 
@@ -51,10 +51,10 @@ O bloco de notas servirá para registrar informações importantes do cotidiano,
 
 O ORBE também contará com um sistema para acompanhamento da hidratação.
 
-• Definir uma meta diária de água;
-• Registrar a quantidade consumida;
-• Receber lembretes para beber água;
-• Visualizar o progresso da meta diária;
+• Definir uma meta diária de água
+• Registrar a quantidade consumida
+• Receber lembretes para beber água
+• Visualizar o progresso da meta diária
 • Consultar seu histórico de hidratação.
 
 
