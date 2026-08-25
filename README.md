@@ -11,10 +11,10 @@ O ORBE é uma aplicação voltada para o gerenciamento e acompanhamento de trein
 - Durante a realização do treino, o usuário poderá registrar o que foi executado em cada exercício. 
 
 - Ex: 
-Supino Reto
-1ª série: 10 repetições — 20 kg
-2ª série: 10 repetições — 22 kg
-3ª série: 8 repetições — 22 kg
+ - Supino Reto
+ - 1ª série: 10 repetições — 20 kg
+ - 2ª série: 10 repetições — 22 kg
+ - 3ª série: 8 repetições — 22 kg
 
 ### Tempo de descanso
 
@@ -23,13 +23,12 @@ Supino Reto
 ### Histórico e evolução 
 
 - Ao criar uma ficha e adicionar os exercícios, o usuário poderá salvar o exercício e posteriormente consultar seus treinos anteriores e acompanhar seu desempenho ao longo do tempo.
-O sistema apresentará informações como cargas utilizadas anteriormente, maior carga registrada e histórico de exercícios.
+- O sistema apresentará informações como cargas utilizadas anteriormente, maior carga registrada e histórico de exercícios.
 
 ### Hidratação
 
 - O ORBE também contará com um sistema para acompanhamento da hidratação.
-
-- Definir uma meta diária de água
-- Registrar a quantidade consumida
-- Receber lembretes para beber água
-- Visualizar o progresso da meta diária.
+ - Definir uma meta diária de água
+ - Registrar a quantidade consumida
+ - Receber lembretes para beber água
+ - Visualizar o progresso da meta diária.
