@@ -9,6 +9,8 @@ Foram definidas inicialmente seis tabelas:
 - workout_days: armazena os dias de cada treino.
 - exercises: armazena os exercícios disponíveis.
 - workout_exercises: relaciona os exercícios aos dias de treino e armazena informações como séries, repetições, carga e descanso.
+- workout_sessions: registra cada execução de um dia de treino (quando o usuário realmente treinou aquele dia).
+- session_sets: registra as séries de fato executadas em cada sessão, com repetições e carga usadas naquele momento.
 - hydration: registra o consumo de água dos usuários.
 
 ## 2. Você utilizou migrations? Se sim, quantas migrations? Descreva em uma frase o que cada uma faz.
@@ -21,6 +23,8 @@ Sim. Foram utilizadas seis migrations:
 4. 004_create_exercises → cria a tabela de exercícios.
 5. 005_create_workout_exercises → relaciona exercícios aos dias de treino e armazena suas configurações.
 6. 006_create_hydration → cria a tabela para registrar o consumo de água dos usuários.
+7. 007_create_workout_sessions → cria a tabela que registra cada execução de um dia de treino.
+8. 008_create_session_sets → cria a tabela que registra as séries realmente executadas em cada sessão.
 
 ## 3. Qual o caminho do arquivo que gera a seed do seu banco?
 
