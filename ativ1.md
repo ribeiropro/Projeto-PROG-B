@@ -49,6 +49,10 @@ Os endpoints que serão implementados inicialmente são:
 - POST /workout-days/:id/exercises
 - PUT /workout-days/:id/exercises/:exerciseId
 - DELETE /workout-days/:id/exercises/:exerciseId
+- POST /workout-days/:id/sessions
+- PUT /sessions/:id/finish
+- POST /sessions/:id/sets
+- GET /workout-exercises/:id/history
 - POST /hydration
 - GET /hydration
 
