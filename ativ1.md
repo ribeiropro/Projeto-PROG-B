@@ -30,7 +30,7 @@ Sim. Foram utilizadas seis migrations:
 
 O caminho do arquivo que gera a seed está em:
 
-/workspaces/codespaces-blank/orbe/backend/seed.sql
+backend/seed.sql
 
 ## 4. Quais os endpoints que você irá implementar inicialmente? Cada endpoint deve ser um método e um path. Explique em um parágrafo por que você resolveu priorizar a implementação desses endpoints.
 
