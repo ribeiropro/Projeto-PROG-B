@@ -2,7 +2,7 @@
 
 ## 1. Quais tabelas você definiu inicialmente?
 
-Foram definidas inicialmente seis tabelas:
+Foram definidas inicialmente oito tabelas:
 
 - users: armazena os dados dos usuários.
 - workouts: armazena os treinos criados pelos usuários.
@@ -15,7 +15,7 @@ Foram definidas inicialmente seis tabelas:
 
 ## 2. Você utilizou migrations? Se sim, quantas migrations? Descreva em uma frase o que cada uma faz.
 
-Sim. Foram utilizadas seis migrations:
+Sim. Foram utilizadas oito migrations:
 
 1. 001_create_users → cria a tabela de usuários.
 2. 002_create_workouts → cria a tabela de treinos relacionados aos usuários.
