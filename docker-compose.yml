@@ -1,0 +1,15 @@
+services:
+  postgres:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: orbe
+      POSTGRES_PASSWORD: orbe
+      POSTGRES_DB: orbe
+    ports:
+      - "5432:5432"
+    volumes:
+      - orbe_pgdata:/var/lib/postgresql/data
+
+volumes:
+  orbe_pgdata:
