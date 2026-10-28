@@ -5,5 +5,5 @@ CREATE TABLE workouts (
     is_active   BOOLEAN NOT NULL DEFAULT true,
     created_at  TIMESTAMP NOT NULL DEFAULT NOW(),
 
-    FOREIGN KEY (user_id) REFERENCES regular_users(user_id) ON DELETE CASCADE
+    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
 );
