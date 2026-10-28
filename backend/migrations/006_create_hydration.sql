@@ -5,5 +5,5 @@ CREATE TABLE hydration (
     amount_ml   INTEGER NOT NULL,
     consumed_at TIMESTAMP DEFAULT NOW(),
 
-    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+    FOREIGN KEY (user_id) REFERENCES regular_users(user_id) ON DELETE CASCADE
 );

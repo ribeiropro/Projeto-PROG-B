@@ -1,12 +1,17 @@
 -- Limpar dados existentes (para poder rodar o seed repetidamente)
-TRUNCATE users, workouts, workout_days, exercises, workout_exercises,
+TRUNCATE users, regular_users, admins, workouts, workout_days, exercises, workout_exercises,
          workout_sessions, session_sets, hydration
     RESTART IDENTITY CASCADE;
 
 -- Usuários
-INSERT INTO users (name, email, password, weight_kg, height_cm) VALUES
-    ('Joao Ribeiro', 'ribeiro@email.com', '12345', 73, 181),
-    ('Bruno Costa', 'bruno@email.com', 'senhasenha', 82.0, 178);
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+INSERT INTO users (name, email, password) VALUES
+    ('Joao Ribeiro', 'ribeiro@email.com', crypt('12345', gen_salt('bf'))),
+    ('Bruno Costa',  'bruno@email.com',   crypt('senhasenha', gen_salt('bf')));
+
+INSERT INTO regular_users (user_id, weight_kg, height_cm) VALUES (1, 73, 181);
+INSERT INTO admins (user_id) VALUES (2);
 
 -- Ficha de treino de Ribeiro (id = 1)
 INSERT INTO workouts (user_id, title, is_active) VALUES
