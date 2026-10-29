@@ -1,6 +1,6 @@
 -- Limpar dados existentes (para poder rodar o seed repetidamente)
-TRUNCATE users, workouts, workout_days, exercises,workout_exercises, workout_sessions, session_sets, hydration
-RESTART IDENTITY CASCADE;
+--TRUNCATE users, workouts, workout_days, exercises,workout_exercises, workout_sessions, session_sets, hydration
+--RESTART IDENTITY CASCADE;
 
 -- Usuários
 
