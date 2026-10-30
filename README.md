@@ -5,13 +5,12 @@ O ORBE é uma aplicação voltada para o gerenciamento e acompanhamento de trein
 ## Funcionalidades:
 
 ### Criar fichas de treino
-- Definindo nome do treino, exercícios, séries, repetições, carga, tempo de descanso, sendo possível criar diferentes fichas, como Treino A, B, C, ou nomes personalizados.
+- Definindo nome do treino, exercícios, séries, repetições, carga, tempo de descanso, sendo possível criar diferentes fichas, como Treino A, Treino B ou nomes personalizados.
 
 ### Registro do treino
 - Durante a realização do treino, o usuário poderá registrar o que foi executado em cada exercício. 
 
-- Ex: 
- - Supino Reto
+Ex: Supino Reto
  - 1ª série: 10 repetições — 20 kg
  - 2ª série: 10 repetições — 22 kg
  - 3ª série: 8 repetições — 22 kg
@@ -27,7 +26,8 @@ O ORBE é uma aplicação voltada para o gerenciamento e acompanhamento de trein
 
 ### Hidratação
 
-- O ORBE também contará com um sistema para acompanhamento da hidratação.
+O ORBE também contará com um sistema para acompanhamento da hidratação.
+
  - Definir uma meta diária de água
  - Registrar a quantidade consumida
  - Receber lembretes para beber água

@@ -1,3 +1,5 @@
+import swaggerUi from "swagger-ui-express";
+import { swaggerSpec } from "./docs/swagger";
 import express, { Request, Response, NextFunction } from "express";
 import cors from "cors";
 import usersRoutes from "./modules/users/users.routes";
@@ -10,6 +12,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use("/api-docs", swaggerUi.serve, swaggerUi.setup(swaggerSpec));
 
 // Rota de teste
 app.get("/", (req, res) => {
