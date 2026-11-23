@@ -37,6 +37,18 @@ const options: swaggerJsdoc.Options = {
         name: "Treinos",
         description: "Gerenciamento dos treinos do usuário",
       },
+      {
+        name: "Dias do Treino",
+        description: "Gerenciamento dos dias do treino",
+      },
+      {
+        name: "Exercícios",
+        description: "Catálogo de Exercícios",
+      },
+      {
+        name: "Configurações de Exercícios",
+        description: "Exercícios configurados em um dia de treino"
+      },
     ],
   },
   apis: ["./src/modules/**/*.routes.ts"],

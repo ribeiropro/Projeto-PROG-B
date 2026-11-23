@@ -7,6 +7,9 @@ import authRoutes from "./modules/auth/auth.routes";
 import workoutsRoutes from "./modules/workouts/workouts.routes";
 import { AppError } from "./errors/AppError";
 import { errorHandler } from "./errors/errorHandler";
+import exercisesRoutes from "./modules/exercises/exercises.routes";
+import workoutDaysRoutes from "./modules/workout_days/workout_days.routes";
+import workoutExercisesRoutes from "./modules/workout_exercises/workout_exercises.routes";
 
 const app = express();
 
@@ -27,6 +30,15 @@ app.use("/api/users", authRoutes);
 
 // CRUD de treinos
 app.use("/api/workouts", workoutsRoutes);
+
+// CRUD de dias de treino
+app.use("/api", workoutDaysRoutes);
+
+// CRUD de exercicios
+app.use("/api/exercises", exercisesRoutes);
+
+// CRUD de configurações dos exercicios
+app.use("/api", workoutExercisesRoutes);
 
 // Rotas inexistentes
 app.use((req: Request, res: Response, next: NextFunction) => {

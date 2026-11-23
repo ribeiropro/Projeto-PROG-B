@@ -1,3 +1,4 @@
+
 services:
   postgres:
     image: postgres:16
@@ -13,3 +14,5 @@ services:
 
 volumes:
   orbe_pgdata:
+    external: true
+    name: codespaces-blank_orbe_pgdata

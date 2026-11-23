@@ -1,0 +1,11 @@
+# Arquivos sensíveis
+.env
+**/.env
+
+# Dependências
+node_modules/
+**/node_modules/
+
+# Backup do banco
+backup_orbe.sql
+*.dump
